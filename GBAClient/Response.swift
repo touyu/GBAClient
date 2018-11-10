@@ -97,7 +97,7 @@ public struct SearchInfo: Codable {
 public struct VolumeInfo: Codable {
     public let title: String
     public let authors: [String]?
-    public let publishedDate: String
+    public let publishedDate: String?
     public let description: String?
     public let industryIdentifiers: [IndustryIdentifier]
     public let readingModes: ReadingModes
